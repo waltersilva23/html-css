@@ -3,3 +3,5 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
  
+Parece ser difícil, mas com dedicação podemos conseguir.
+ 

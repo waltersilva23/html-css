@@ -15,6 +15,13 @@
             border-collapse: collapse;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
@@ -27,7 +34,6 @@
         th, td {
             border: 1px solid black;
             padding: 10px;
-            text-align: center;
         }
         
     </style>
@@ -36,6 +42,7 @@
     <h1>Uso de Tabelas Grandes</h1>
     <!--Anatomia das tabelas
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -44,9 +51,10 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>Os 3 estados com maior população.</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
         </thead>
         <tbody>
             <tr>
@@ -63,7 +71,7 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="num"><strong>84.352.783</strong></td>
         </tfoot>
     </table>

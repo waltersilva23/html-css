@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -25,6 +26,16 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n) { /*odd para pintar as linhas pares e even para pintar as linhas ímpares*/
+            background-color: lightgray;
         }
 
         td.num {
@@ -51,7 +62,7 @@
                 TR, TD, TH
     -->
     <table>
-        <caption>Os 3 estados com maior população.</caption>
+        <caption>Os 5 estados com maior população.</caption>
         <thead>
             <th scope="col">Estado</th>
             <th scope="col" style="width: 50px;">População</th>
@@ -67,12 +78,80 @@
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
-                <td class="num">17.264.943</td>
+                <td class="num">16.550.024</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">15.203.934</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.247.972</td>
             </tr>
         </tbody>
         <tfoot>
             <th scope="row">Total de Habitantes</th>
-            <td class="num"><strong>84.352.783</strong></td>
+            <td class="num"><strong>110.352.783</strong></td>
         </tfoot>
     </table>
 </body>
